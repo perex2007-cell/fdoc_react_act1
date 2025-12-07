@@ -1,12 +1,12 @@
-import react from 'react';
+import React from 'react';
 export default function PerfilConObjeto({ usuario }) {
-  const hobbies = usuario.hobbies.length
+  const hobbies = usuario?.hobbies?.length
     ? usuario.hobbies.join(", ")
     : "Sin hobbies";
 
   return (
     <div>
-      <h2>{usuario.nombre}</h2>
+      <h2>{usuario?.nombre}</h2>
       <p>{hobbies}</p>
     </div>
   );

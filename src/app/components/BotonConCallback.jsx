@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 export default function BotonConCallback({ onClick, texto }) {
   return <button onClick={onClick}>{texto}</button>;
 }

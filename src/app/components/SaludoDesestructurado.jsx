@@ -1,4 +1,6 @@
+"use client";
 import React from 'react';
+
 export default function SaludoDesestructurado({ nombre, edad }) {
   return (
     <div>
